@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foo VOD System</title>
+    <script src="https://reference.dashif.org/dash.js/latest/dist/dash.all.min.js"></script>
+    <style>
+        body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; }
+        
+        /* top bar */
+        .navbar {
+            background: linear-gradient(90deg, #00acc1, #007c91);
+            color: white;
+            padding: 10px 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .navbar h1 { margin: 0; font-size: 24px; letter-spacing: 1px; }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* search bar*/
+        .search-section {
+            margin-bottom: 20px;
+            width: 100%;
+            max-width: 800px;
+            text-align: center;
+        }
+        #videoInput {
+            width: 70%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        #playBtn {
+            padding: 12px 24px;
+            background-color: #00acc1;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: 10px;
+        }
+        #playBtn:hover { background-color: #007c91; }
+
+        /* dash player */
+        .video-wrapper {
+            width: 100%;
+            max-width: 800px;
+            background-color: #000;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+        video { width: 100%; display: block; }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <h1>Foo</h1>
+    </div>
+
+    <div class="container">
+        <div class="search-section">
+            <input type="text" id="videoInput" placeholder="search a video to play! example: test_video">
+            <button id="playBtn" onclick="handleSearch()">Play</button>
+        </div>
+
+        <div class="video-wrapper">
+            <video id="videoPlayer" controls></video>
+        </div>
+    </div>
+
+    <script>
+        let player = dashjs.MediaPlayer().create();
+        const videoElement = document.querySelector("#videoPlayer");
+
+        async function handleSearch() {
+            const videoTitle = document.getElementById('videoInput').value;
+            if (!videoTitle) {
+                alert("Please input a title!");
+                return;
+            }
+
+            try {
+                // fetch
+                const response = await fetch('/api/start', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ title: videoTitle })
+                });
+
+                const result = await response.json();
+
+                if (response.ok) {
+                    // succeed
+                    alert("Success, starting to play");
+                    
+                    // use dash.js to play the mpd url
+                    // return url:result.url
+                    player.initialize(videoElement, result.url, true);
+                } else {
+                    // no source found
+                    if (response.status === 404) {
+                        alert(`Failed, no sources called [${videoTitle}] founded`);
+                    } else {
+                        // other error
+                        alert(`Failed: ${result.error || 'Unknown error'}`);
+                    }
+                }
+            } catch (error) {
+                alert(`Failed, connection error: ${error.message}`);
+            }
+        }
+    </script>
+</body>
+</html>
