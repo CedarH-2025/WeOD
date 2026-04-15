@@ -1,10 +1,10 @@
 video_source/
 
 # FFmpeg slice
-public/output/
 *.m4s
 *.mpd
 *.tmp
+*.mp4
 
 #python environment
 __pycache__/

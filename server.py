@@ -21,7 +21,7 @@ def handle_start():
     if manifest:
         return jsonify({
             "message": "Success, starting to play",
-            "url": f"/stream/{video_name}_temp/playlist.mpd"
+            "url": f"/stream/{manifest}"
         }), 200
     else:
         return jsonify({"error": status}), 404
@@ -33,4 +33,4 @@ def serve_video(filename):
 
 # In Debug Mode
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=False)

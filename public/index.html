@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foo VOD System</title>
-    <script src="https://reference.dashif.org/dash.js/latest/dist/dash.all.min.js"></script>
+    <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
     <style>
         body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; }
         
@@ -148,7 +148,8 @@
                 } else {
                     // no source found
                     if (response.status === 404) {
-                        alert(`Failed, no sources called [${videoTitle}] founded`);
+                        //alert(`Failed, no sources called [${videoTitle}] founded`);
+                        alert(`Failed: ${result.error || 'Unknown error'}`);
                     } else {
                         // other error
                         alert(`Failed: ${result.error || 'Unknown error'}`);
