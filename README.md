@@ -11,3 +11,10 @@ This is a server-cilent mode VOD System.
 # running:
 In the root folder of this software, run: python server.py
 
+
+# reference:
+browser supported codecs:
+https://www.reddit.com/r/MicrosoftEdge/comments/v9iw8k/enable_hevc_support_in_edge/
+https://learn.microsoft.com/en-us/troubleshoot/microsoft-edge/development/video-playback-issues
+https://vdo.ninja/h265
+
