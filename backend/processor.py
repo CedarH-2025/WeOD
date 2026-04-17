@@ -35,7 +35,10 @@ def encode(filename, codec, fps):
     transcode_dir = os.path.join(current_dir, "source", "transcode")
 
     input_file = os.path.join(raw_dir, f"{filename}.mp4")
-    output_file = os.path.join(transcode_dir, f"{filename}_{codec}_{fps}.mp4")
+    if codec == "mjpeg":
+        output_file = os.path.join(transcode_dir, f"{filename}_{codec}_{fps}.avi")
+    else:
+        output_file = os.path.join(transcode_dir, f"{filename}_{codec}_{fps}.mp4")
 
     if os.path.exists(output_file):
         print("transcoded file already exists, reuse it")

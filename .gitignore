@@ -5,6 +5,7 @@ video_source/
 *.mpd
 *.tmp
 *.mp4
+*.avi
 
 #python environment
 __pycache__/
