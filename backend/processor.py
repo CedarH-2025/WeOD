@@ -35,11 +35,13 @@ def encode(filename, codec, fps):
     transcode_dir = os.path.join(current_dir, "source", "transcode")
 
     input_file = os.path.join(raw_dir, f"{filename}.mp4")
-    if codec == "mjpeg":
-        output_file = os.path.join(transcode_dir, f"{filename}_{codec}_{fps}.avi")
+
+    if codec == "libvpx-vp9":
+        output_file = os.path.join(transcode_dir, f"{filename}_{codec}_{fps}.webm")
     else:
         output_file = os.path.join(transcode_dir, f"{filename}_{codec}_{fps}.mp4")
 
+    # a basic cache
     if os.path.exists(output_file):
         print("transcoded file already exists, reuse it")
         return output_file, None
@@ -89,24 +91,27 @@ def encode(filename, codec, fps):
             "-r", "60",
             output_file
         ],
-        ("mjpeg", "24"): [
+        ("libvpx-vp9", "24"): [
             "ffmpeg", "-y",
             "-i", input_file,
-            "-c:v", "mjpeg",
+            "-c:v", "libvpx-vp9",
+            "-b:v", "1M",
             "-r", "24",
             output_file
         ],
-        ("mjpeg", "30"): [
+        ("libvpx-vp9", "30"): [
             "ffmpeg", "-y",
             "-i", input_file,
-            "-c:v", "mjpeg",
+            "-c:v", "libvpx-vp9",
+            "-b:v", "1M",
             "-r", "30",
             output_file
         ],
-        ("mjpeg", "60"): [
+        ("libvpx-vp9", "60"): [
             "ffmpeg", "-y",
             "-i", input_file,
-            "-c:v", "mjpeg",
+            "-c:v", "libvpx-vp9",
+            "-b:v", "2M",
             "-r", "60",
             output_file
         ]
@@ -146,8 +151,8 @@ def dash(trans_file, codec):
 
     codec_lower = codec.lower().strip()
 
-    # h.265 / mjpeg -> GPAC
-    if codec_lower in ["h.265", "hevc", "libx265", "mjpeg", "motion jpeg"]:
+    # h.265 -> GPAC
+    if codec_lower in ["h.265", "hevc", "libx265"]:
         command = [
             "mp4box",
             "-dash", "2000",
@@ -158,8 +163,9 @@ def dash(trans_file, codec):
             trans_file + "#video",
             trans_file + "#audio"
         ]
-    else:
-        # default: ffmpeg (h.264)
+
+    # vp9 -> ffmpeg dash
+    elif codec_lower in ["vp9", "libvpx-vp9"]:
         command = [
             "ffmpeg",
             "-hide_banner",
@@ -167,11 +173,34 @@ def dash(trans_file, codec):
             "-y",
             "-i", trans_file,
             "-map", "0:v:0",
-            "-c:v", "copy",
+            "-map", "0:a:0?",
+            "-c", "copy",
             "-f", "dash",
             "-seg_duration", "2",
             "-use_template", "1",
             "-use_timeline", "1",
+            "-adaptation_sets", "id=0,streams=v id=1,streams=a",
+            "-init_seg_name", "init-$RepresentationID$.webm",
+            "-media_seg_name", "chunk-$RepresentationID$-$Number$.webm",
+            "manifest.mpd"
+        ]
+
+    # default: h.264 -> ffmpeg
+    else:
+        command = [
+            "ffmpeg",
+            "-hide_banner",
+            "-loglevel", "error",
+            "-y",
+            "-i", trans_file,
+            "-map", "0:v:0",
+            "-map", "0:a:0?",
+            "-c", "copy",
+            "-f", "dash",
+            "-seg_duration", "2",
+            "-use_template", "1",
+            "-use_timeline", "1",
+            "-adaptation_sets", "id=0,streams=v id=1,streams=a",
             "-streaming", "1",
             "-init_seg_name", "init-$RepresentationID$.m4s",
             "-media_seg_name", "chunk-$RepresentationID$-$Number$.m4s",

@@ -25,6 +25,12 @@ dash.js: is a JavaScript-based MPEG-DASH reference player developed by the DASH 
 Which mean dash.js is based on MSE(Media Source Extensions), and MJPEG is a type of different streaming format with MSE, thus MJEPG is not support on DASH.js
 https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Video_codecs
 https://github.com/blakeblackshear/frigate/discussions/18634
+https://www.rfc-editor.org/rfc/rfc6381#section-3.4
+https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Video_codecs
+
+console.log("MP4 MJPEG:", MediaSource.isTypeSupported('video/mp4; codecs="mjp2"'));
+VM71:1 MP4 MJPEG: false
+
 
 
 
