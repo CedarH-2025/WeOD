@@ -117,6 +117,109 @@
     <script>
         let player = dashjs.MediaPlayer().create();
         const videoElement = document.querySelector("#videoPlayer");
+        const stats = document.getElementById("stats");
+
+        let currentLogId = null;
+        let requestStartTime = null;
+        let firstPlayingTime = null;
+
+        let bufferSamples = [];
+        let sampleTimer = null;
+
+        function getBufferLevel(video) {
+            if (video.buffered.length > 0) {
+                return video.buffered.end(video.buffered.length - 1) - video.currentTime;
+            }
+            return 0;
+        }
+
+        function getDecodedFrames(video) {
+            return video.webkitDecodedFrameCount ?? 0;
+        }
+
+        function getDroppedFrames(video) {
+            return video.webkitDroppedFrameCount ?? 0;
+        }
+
+        function startSampling() {
+            bufferSamples = [];
+
+            if (sampleTimer !== null) {
+                clearInterval(sampleTimer);
+            }
+
+            sampleTimer = setInterval(() => {
+                const bufferLevel = getBufferLevel(videoElement);
+                bufferSamples.push(bufferLevel);
+
+                stats.innerText = `
+                    currentTime: ${videoElement.currentTime.toFixed(2)}
+                    paused: ${videoElement.paused}
+                    readyState: ${videoElement.readyState}
+                    decodedFrames: ${getDecodedFrames(videoElement)}
+                    droppedFrames: ${getDroppedFrames(videoElement)}
+                    bufferLevel: ${bufferLevel.toFixed(2)}
+                    samples: ${bufferSamples.length}
+                                `;
+            }, 2000);
+        }
+
+        function stopSampling() {
+            if (sampleTimer !== null) {
+                clearInterval(sampleTimer);
+                sampleTimer = null;
+            }
+        }
+
+        function getAverageBufferLevel() {
+            if (bufferSamples.length === 0) {
+                return 0;
+            }
+
+            const total = bufferSamples.reduce((sum, value) => sum + value, 0);
+            return total / bufferSamples.length;
+        }
+
+        function getFrontendSummary() {
+            const decodedFrames = getDecodedFrames(videoElement);
+            const droppedFrames = getDroppedFrames(videoElement);
+
+            const dropRate = decodedFrames > 0
+                ? droppedFrames / decodedFrames
+                : 0;
+
+            return {
+                log_id: currentLogId,
+                start_up_delay: firstPlayingTime !== null && requestStartTime !== null
+                    ? firstPlayingTime - requestStartTime
+                    : null,
+                avg_buffer_level: getAverageBufferLevel(),
+                decoded_frames: decodedFrames,
+                dropped_frames: droppedFrames,
+                drop_rate: dropRate
+            };
+        }
+
+        async function sendFrontendSummary() {
+            if (!currentLogId) {
+                console.log("No log_id, skip frontend summary.");
+                return;
+            }
+
+            stopSampling();
+
+            const summary = getFrontendSummary();
+            console.log("frontend summary:", summary);
+
+            // backend method will be added later
+            await fetch("/api/log_frontend", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(summary)
+            });
+        }
 
         async function handleSearch() {
             const videoTitle = document.getElementById('videoInput').value;
@@ -129,57 +232,52 @@
             }
 
             try {
+                requestStartTime = performance.now();
+                firstPlayingTime = null;
+                currentLogId = null;
+                bufferSamples = [];
+
                 const response = await fetch('/api/start', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ 
+                    body: JSON.stringify({
                         title: videoTitle,
                         codec: codec,
                         fps: fps
                     })
                 });
+
                 const result = await response.json();
 
                 if (response.ok) {
-                    // succeed
                     alert("Success, starting to play");
-                    
-                    // use dash.js to play the mpd url
-                    // return url:result.url
+
+                    currentLogId = result.log_id;
+
                     player.initialize(videoElement, result.url, true);
+                    startSampling();
                 } else {
-                    // no source found
-                    if (response.status === 404) {
-                        //alert(`Failed, no sources called [${videoTitle}] founded`);
-                        alert(`Failed: ${result.error || 'Unknown error'}`);
-                    } else {
-                        // other error
-                        alert(`Failed: ${result.error || 'Unknown error'}`);
-                    }
+                    alert(`Failed: ${result.error || 'Unknown error'}`);
                 }
             } catch (error) {
                 alert(`Failed, connection error: ${error.message}`);
             }
         }
 
-        //stats test
-        const v = document.getElementById("videoPlayer");
-        const stats = document.getElementById("stats");
+        videoElement.addEventListener("playing", () => {
+            if (firstPlayingTime === null) {
+                firstPlayingTime = performance.now();
+                console.log("start-up delay:", firstPlayingTime - requestStartTime);
+            }
+        });
 
-        setInterval(() => {
-        const bufferLevel = v.buffered.length > 0
-            ? v.buffered.end(v.buffered.length - 1) - v.currentTime
-            : 0;
+        videoElement.addEventListener("ended", () => {
+            sendFrontendSummary();
+        });
 
-        stats.innerText = `
-        currentTime: ${v.currentTime.toFixed(2)}
-        paused: ${v.paused}
-        readyState: ${v.readyState}
-        decodedFrames: ${v.webkitDecodedFrameCount ?? "N/A"}
-        droppedFrames: ${v.webkitDroppedFrameCount ?? "N/A"}
-        bufferLevel: ${bufferLevel.toFixed(2)}
-        `;
-        }, 1000);
+        videoElement.addEventListener("error", () => {
+            stopSampling();
+        });
     </script>
 </body>
 </html>

@@ -135,7 +135,7 @@ def process(filename, codec, fps):
     log_data["error"] = ""
     save_pending_log(log_id, log_data)
 
-    return manifest, None
+    return manifest, log_id, None
 
 # encode video
 def encode(filename, codec, fps):
@@ -358,4 +358,81 @@ def dash(trans_file, codec):
     finally:
         if process and process.stdout:
             process.stdout.close()
+
+# log into file
+def write_to_log(frontend_log):
+    log_id = frontend_log.get("log_id")
+
+    if not log_id:
+        return False, "missing log_id"
+
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    log_dir = os.path.join(current_dir, "log")
+    pending_dir = os.path.join(log_dir, "pending")
+
+    pending_file = os.path.join(pending_dir, f"{log_id}.json")
+    log_file = os.path.join(log_dir, "log.csv")
+
+    if not os.path.exists(pending_file):
+        return False, f"pending log not found for log_id: {log_id}"
+
+    try:
+        with open(pending_file, "r", encoding="utf-8") as f:
+            backend_log = json.load(f)
+
+        final_log = {
+            "log_id": backend_log.get("log_id", log_id),
+            "video_name": backend_log.get("video_name", ""),
+            "codec": backend_log.get("codec", ""),
+            "fps": backend_log.get("fps", ""),
+            "video_length": backend_log.get("video_length", ""),
+            "resolution": backend_log.get("resolution", ""),
+            "is_cached": backend_log.get("is_cached", False),
+            "start_up_delay": frontend_log.get("start_up_delay", ""),
+            "encode_time": backend_log.get("encode_time", ""),
+            "slice_time": backend_log.get("slice_time", ""),
+            "avg_buffer_level": frontend_log.get("avg_buffer_level", ""),
+            "drop_rate": frontend_log.get("drop_rate", ""),
+            "decoded_frames": frontend_log.get("decoded_frames", ""),
+            "dropped_frames": frontend_log.get("dropped_frames", ""),
+            "status": backend_log.get("status", ""),
+            "error": backend_log.get("error", "")
+        }
+
+        fieldnames = [
+            "log_id",
+            "video_name",
+            "codec",
+            "fps",
+            "video_length",
+            "resolution",
+            "is_cached",
+            "start_up_delay",
+            "encode_time",
+            "slice_time",
+            "avg_buffer_level",
+            "drop_rate",
+            "decoded_frames",
+            "dropped_frames",
+            "status",
+            "error"
+        ]
+
+        need_header = not os.path.exists(log_file) or os.path.getsize(log_file) == 0
+
+        with open(log_file, "a", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+
+            if need_header:
+                writer.writeheader()
+
+            writer.writerow(final_log)
+
+        os.remove(pending_file)
+        
+        return True, "frontend log saved"
+
+    except Exception as e:
+        print("WRITE TO LOG ERROR:", str(e))
+        return False, str(e)
     

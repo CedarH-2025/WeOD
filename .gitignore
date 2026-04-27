@@ -19,7 +19,8 @@ ENV/
 
 # log
 *.log
-metrics_data/
+*.csv
+*.json
 
 .vscode/
 .idea/
