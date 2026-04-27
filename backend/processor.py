@@ -1,6 +1,11 @@
+import json
 import os
 import subprocess
 import shutil
+import csv
+import time
+import uuid
+from datetime import datetime
 
 # search if the video exist, and call process
 def search(filename, codec, fps):
@@ -14,16 +19,121 @@ def search(filename, codec, fps):
     else:
         return None, f"File '{filename}.mp4' does not exist."
 
-#process video, use 2 helper method for easiler logic
+# generate log_id 
+def create_log_id():
+    time_part = datetime.now().strftime("%Y%m%d_%H%M%S")
+    random_part = uuid.uuid4().hex[:8]
+    return f"{time_part}_{random_part}"
+
+# save pending log
+def save_pending_log(log_id, data):
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    log_dir = os.path.join(current_dir, "log", "pending")
+    os.makedirs(log_dir, exist_ok=True)
+
+    log_file = os.path.join(log_dir, f"{log_id}.json")
+
+    with open(log_file, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4)
+
+# record video information
+def get_video_info(video_file):
+    try:
+        duration_command = [
+            "ffprobe",
+            "-v", "error",
+            "-show_entries", "format=duration",
+            "-of", "default=noprint_wrappers=1:nokey=1",
+            video_file
+        ]
+
+        duration_result = subprocess.run(
+            duration_command,
+            capture_output=True,
+            text=True,
+            check=True
+        )
+
+        video_length = round(float(duration_result.stdout.strip()), 3)
+
+        resolution_command = [
+            "ffprobe",
+            "-v", "error",
+            "-select_streams", "v:0",
+            "-show_entries", "stream=width,height",
+            "-of", "csv=s=x:p=0",
+            video_file
+        ]
+
+        resolution_result = subprocess.run(
+            resolution_command,
+            capture_output=True,
+            text=True,
+            check=True
+        )
+
+        resolution = resolution_result.stdout.strip()
+
+        return video_length, resolution
+
+    except Exception as e:
+        print("GET VIDEO INFO ERROR:", str(e))
+        return "", ""
+
+# process video, use 2 helper method for easiler logic
 def process(filename, codec, fps):
+    log_id = create_log_id()
     print("processing"+ filename)
+
+    # log start
+    print("log_id:", log_id)
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    raw_file = os.path.join(current_dir, "source", "raw", f"{filename}.mp4")
+
+    video_length, resolution = get_video_info(raw_file)
+
+    log_data = {
+        "log_id": log_id,
+        "video_name": filename,
+        "codec": codec,
+        "fps": fps,
+        "video_length": video_length,
+        "resolution": resolution,
+        "is_cached": False,
+        "encode_time": "",
+        "slice_time": ""
+    }
+
+    encode_start = time.perf_counter() # log
+
+    # encode start
     trans_file, error = encode(filename, codec, fps)
+    encode_end = time.perf_counter() # log
     if not trans_file:
+        log_data["status"] = "encode_failed" # log
+        log_data["error"] = error # log
+        save_pending_log(log_id, log_data) # log
         return None, error
 
+    encode_time = round((encode_end - encode_start) * 1000, 3) # log
+    log_data["encode_time"] = encode_time # log
+
+    slice_start = time.perf_counter() # log
     manifest, error = dash(trans_file, codec)
+    slice_end = time.perf_counter() # log
+    slice_time = round((slice_end - slice_start) * 1000, 3) # log
+    log_data["slice_time"] = slice_time # log
     if not manifest:
+        log_data["status"] = "slice_failed" # log
+        log_data["error"] = error # log
+        save_pending_log(log_id, log_data) # log
         return None, error
+    
+    # log ends
+    log_data["manifest"] = manifest
+    log_data["status"] = "backend_finished"
+    log_data["error"] = ""
+    save_pending_log(log_id, log_data)
 
     return manifest, None
 

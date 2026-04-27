@@ -110,6 +110,8 @@
         <div class="video-wrapper">
             <video id="videoPlayer" controls></video>
         </div>
+        <!-- stats test-->
+        <div id="stats"></div>
     </div>
 
     <script>
@@ -159,6 +161,25 @@
                 alert(`Failed, connection error: ${error.message}`);
             }
         }
+
+        //stats test
+        const v = document.getElementById("videoPlayer");
+        const stats = document.getElementById("stats");
+
+        setInterval(() => {
+        const bufferLevel = v.buffered.length > 0
+            ? v.buffered.end(v.buffered.length - 1) - v.currentTime
+            : 0;
+
+        stats.innerText = `
+        currentTime: ${v.currentTime.toFixed(2)}
+        paused: ${v.paused}
+        readyState: ${v.readyState}
+        decodedFrames: ${v.webkitDecodedFrameCount ?? "N/A"}
+        droppedFrames: ${v.webkitDroppedFrameCount ?? "N/A"}
+        bufferLevel: ${bufferLevel.toFixed(2)}
+        `;
+        }, 1000);
     </script>
 </body>
 </html>
