@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foo VOD System</title>
+    <title>WeOD System</title>
     <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
     <style>
         body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; }
@@ -78,7 +78,7 @@
 <body>
 
     <div class="navbar">
-        <h1>Foo</h1>
+        <h1>WeOD</h1>
     </div>
 
     <div class="container">
@@ -199,7 +199,8 @@
                 avg_buffer_level: getAverageBufferLevel(),
                 decoded_frames: decodedFrames,
                 dropped_frames: droppedFrames,
-                drop_rate: dropRate
+                drop_rate: dropRate,
+                avg_throughput_mbps: getAverageThroughputMbps()
             };
         }
 
@@ -281,6 +282,31 @@
         videoElement.addEventListener("error", () => {
             stopSampling();
         });
+
+        function getAverageThroughputMbps() {
+            const resources = performance.getEntriesByType("resource");
+
+            const segments = resources.filter(r =>
+                r.name.includes(".m4s") || r.name.includes(".webm")
+            );
+
+            let totalBits = 0;
+            let totalTime = 0;
+
+            segments.forEach(r => {
+                const sizeBytes = r.transferSize || r.encodedBodySize || 0;
+                const timeSeconds = (r.responseEnd - r.startTime) / 1000;
+
+                if (sizeBytes > 0 && timeSeconds > 0) {
+                    totalBits += sizeBytes * 8;
+                    totalTime += timeSeconds;
+                }
+            });
+
+            if (totalTime === 0) return 0;
+
+            return totalBits / totalTime / 1_000_000; // Mbps
+        }
     </script>
 </body>
 </html>

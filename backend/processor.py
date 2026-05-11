@@ -107,13 +107,15 @@ def process(filename, codec, fps):
     encode_start = time.perf_counter() # log
 
     # encode start
-    trans_file, error = encode(filename, codec, fps)
+    trans_file, is_cached, error = encode(filename, codec, fps)
     encode_end = time.perf_counter() # log
     if not trans_file:
         log_data["status"] = "encode_failed" # log
         log_data["error"] = error # log
         save_pending_log(log_id, log_data) # log
         return None, error
+    
+    log_data["is_cached"] = is_cached
 
     encode_time = round((encode_end - encode_start) * 1000, 3) # log
     log_data["encode_time"] = encode_time # log
@@ -151,10 +153,13 @@ def encode(filename, codec, fps):
     else:
         output_file = os.path.join(transcode_dir, f"{filename}_{codec}_{fps}.mp4")
 
+    is_cached = False
+
     # a basic cache
     if os.path.exists(output_file):
         print("transcoded file already exists, reuse it")
-        return output_file, None
+        is_cached = True
+        return output_file, is_cached, None
     
     os.makedirs(transcode_dir, exist_ok=True)
 
@@ -229,7 +234,7 @@ def encode(filename, codec, fps):
 
     key = (codec, str(fps))
     if key not in case_commands:
-        return None, f"Unsupported codec/fps combination: codec={codec}, fps={fps}"
+        return None, is_cached, f"Unsupported codec/fps combination: codec={codec}, fps={fps}"
 
     command = case_commands[key]
 
@@ -240,11 +245,11 @@ def encode(filename, codec, fps):
             text=True,
             check=True
         )
-        return output_file, None
+        return output_file, is_cached, None
     except subprocess.CalledProcessError as e:
-        return None, e.stderr
+        return None, is_cached, e.stderr
     except Exception as e:
-        return None, str(e)
+        return None, is_cached, str(e)
     
 # slice video for dash player
 def dash(trans_file, codec):
@@ -392,6 +397,7 @@ def write_to_log(frontend_log):
             "encode_time": backend_log.get("encode_time", ""),
             "slice_time": backend_log.get("slice_time", ""),
             "avg_buffer_level": frontend_log.get("avg_buffer_level", ""),
+            "avg_throughput_mbps": frontend_log.get("avg_throughput_mbps", ""),
             "drop_rate": frontend_log.get("drop_rate", ""),
             "decoded_frames": frontend_log.get("decoded_frames", ""),
             "dropped_frames": frontend_log.get("dropped_frames", ""),
@@ -411,6 +417,7 @@ def write_to_log(frontend_log):
             "encode_time",
             "slice_time",
             "avg_buffer_level",
+            "avg_throughput_mbps",
             "drop_rate",
             "decoded_frames",
             "dropped_frames",

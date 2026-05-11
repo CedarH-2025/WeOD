@@ -31,6 +31,11 @@ https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Video_codecs
 console.log("MP4 MJPEG:", MediaSource.isTypeSupported('video/mp4; codecs="mjp2"'));
 VM71:1 MP4 MJPEG: false
 
+# Data Collection
+I use Videos from Xiph.org Video Test Media [derf's collection]. 
+
+Videos are from https://media.xiph.org/
+
 
 
 
