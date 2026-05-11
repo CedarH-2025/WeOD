@@ -2,7 +2,7 @@ const fs = require("fs");
 const { chromium } = require("playwright");
 
 // URL
-const SERVER_URL = "http://127.0.0.1:5000";
+const SERVER_URL = "http://10.151.220.244:5000";
 const VIDEO_FILE = "videos.txt";
 
 const codecs = ["libx264", "libx265", "libvpx-vp9"];
