@@ -21,12 +21,16 @@ async function runOneTest(page, videoName, codec, fps) {
     await page.selectOption("#fpsSelect", fps);
 
     await page.click("#playBtn");
+    const START_TIMEOUT = 1000 * 60 * 180; // 3小时，给 VP9 转码+切片
+    const PLAY_TIMEOUT = 1000 * 60 * 5;    // 5分钟，理论上够了
+    const END_TIMEOUT = 1000 * 60 * 5;     // 5分钟，因为视频都不超过2分钟
+    const AFTER_END_WAIT = 3000; 
 
     // 等待后端返回成功提示
     await page.waitForFunction(() => {
         const status = document.querySelector("#statusText")?.innerText || "";
         return status.includes("Success") || status.includes("Failed");
-    }, { timeout: 180000 });
+    }, { timeout: START_TIMEOUT });
 
     const statusText = await page.locator("#statusText").innerText();
 
@@ -42,7 +46,7 @@ async function runOneTest(page, videoName, codec, fps) {
     await page.waitForFunction(() => {
         const video = document.querySelector("#videoPlayer");
         return video && !video.paused && video.readyState >= 2;
-    }, { timeout: 180000 });
+    }, { timeout: PLAY_TIMEOUT });
 
     console.log("Playback started.");
 
@@ -50,7 +54,7 @@ async function runOneTest(page, videoName, codec, fps) {
     await page.waitForFunction(() => {
         const video = document.querySelector("#videoPlayer");
         return video && video.ended;
-    }, { timeout: 60 * 60 * 1000 });
+    }, { timeout: END_TIMEOUT });
 
     console.log("Playback ended.");
 
