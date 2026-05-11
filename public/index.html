@@ -106,6 +106,8 @@
                 </div>
             </div>
         </div>
+        <div id="statusText">
+        </div>
 
         <div class="video-wrapper">
             <video id="videoPlayer" controls></video>
@@ -118,6 +120,7 @@
         let player = dashjs.MediaPlayer().create();
         const videoElement = document.querySelector("#videoPlayer");
         const stats = document.getElementById("stats");
+        const statusText = document.getElementById("statusText");
 
         let currentLogId = null;
         let requestStartTime = null;
@@ -250,17 +253,17 @@
                 const result = await response.json();
 
                 if (response.ok) {
-                    alert("Success, starting to play");
+                    statusText.innerText = "Success, starting to play";
 
                     currentLogId = result.log_id;
 
                     player.initialize(videoElement, result.url, true);
                     startSampling();
                 } else {
-                    alert(`Failed: ${result.error || 'Unknown error'}`);
+                    statusText.innerText = `Failed: ${result.error || 'Unknown error'}`;
                 }
             } catch (error) {
-                alert(`Failed, connection error: ${error.message}`);
+                statusText.innerText = `Failed: ${result.error || 'Unknown error'}`;
             }
         }
 
