@@ -113,7 +113,7 @@ def process(filename, codec, fps):
         log_data["status"] = "encode_failed" # log
         log_data["error"] = error # log
         save_pending_log(log_id, log_data) # log
-        return None, error
+        return None, log_id, error
     
     log_data["is_cached"] = is_cached
 
@@ -129,7 +129,7 @@ def process(filename, codec, fps):
         log_data["status"] = "slice_failed" # log
         log_data["error"] = error # log
         save_pending_log(log_id, log_data) # log
-        return None, error
+        return None, log_id, error
     
     # log ends
     log_data["manifest"] = manifest
@@ -266,8 +266,36 @@ def dash(trans_file, codec):
 
     codec_lower = codec.lower().strip()
 
-    # h.265 -> GPAC
+    # h.265 -> GPAC with mp4BOX
     if codec_lower in ["h.265", "hevc", "libx265"]:
+
+        gpac_inputs = [
+            trans_file + "#video"
+        ]
+
+        # if audio exist
+        probe_command = [
+            "ffprobe",
+            "-v", "error",
+            "-select_streams", "a",
+            "-show_entries", "stream=index",
+            "-of", "csv=p=0",
+            trans_file
+        ]
+
+        probe = subprocess.run(
+            probe_command,
+            capture_output=True,
+            text=True
+        )
+
+        # if audio exists
+        if probe.stdout.strip():
+            print("audio track detected")
+            gpac_inputs.append(trans_file + "#audio")
+        else:
+            print("no audio track")
+
         command = [
             "mp4box",
             "-dash", "2000",
@@ -275,9 +303,7 @@ def dash(trans_file, codec):
             "-rap",
             "-profile", "live",
             "-out", "manifest.mpd",
-            trans_file + "#video",
-            trans_file + "#audio"
-        ]
+        ] + gpac_inputs
 
     # vp9 -> ffmpeg dash
     elif codec_lower in ["vp9", "libvpx-vp9"]:
