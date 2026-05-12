@@ -3,93 +3,123 @@ const { chromium } = require("playwright");
 
 // URL
 const SERVER_URL = "http://10.151.220.244:5000";
-const VIDEO_FILE = "videos.txt";
+const LOST_FILE = "lost.txt";
 
-const codecs = ["libx264", "libx265", "libvpx-vp9"];
-const fpsList = ["24", "30", "60"];
+const WAIT_TIMEOUT = 1000 * 60 * 120; // 2小时
+const AFTER_END_WAIT = 3000;
 
-const videos = fs.readFileSync(VIDEO_FILE, "utf-8")
-    .split(/\r?\n/)
-    .map(line => line.trim())
-    .filter(line => line.length > 0 && !line.startsWith("#"));
+function readLostTests() {
+    return fs.readFileSync(LOST_FILE, "utf-8")
+        .split(/\r?\n/)
+        .map(line => line.trim())
+        .filter(line => line.length > 0 && !line.startsWith("#"))
+        .map(line => {
+            const parts = line.split(/\s+/);
+
+            if (parts.length !== 3) {
+                throw new Error(`Invalid line in lost.txt: ${line}`);
+            }
+
+            return {
+                videoName: parts[0],
+                codec: parts[1],
+                fps: parts[2]
+            };
+        });
+}
+
+async function waitUntilStatusDone(page) {
+    await page.waitForFunction(() => {
+        const status = document.querySelector("#statusText")?.innerText || "";
+        return status.includes("Success") || status.includes("Failed");
+    }, null, { timeout: WAIT_TIMEOUT });
+
+    return await page.locator("#statusText").innerText();
+}
+
+async function waitUntilPlaybackStarted(page) {
+    await page.waitForFunction(() => {
+        const video = document.querySelector("#videoPlayer");
+        return video && !video.paused && video.readyState >= 2;
+    }, null, { timeout: WAIT_TIMEOUT });
+}
+
+async function waitUntilPlaybackEnded(page) {
+    await page.waitForFunction(() => {
+        const video = document.querySelector("#videoPlayer");
+        return video && video.ended;
+    }, null, { timeout: WAIT_TIMEOUT });
+}
 
 async function runOneTest(page, videoName, codec, fps) {
     console.log(`\n===== Start: ${videoName}, ${codec}, ${fps} =====`);
+
+    // 每轮重新进入页面，避免上一轮 dash.js / video 状态残留
+    await page.goto(SERVER_URL, { waitUntil: "domcontentloaded", timeout: WAIT_TIMEOUT });
 
     await page.fill("#videoInput", videoName);
     await page.selectOption("#codecSelect", codec);
     await page.selectOption("#fpsSelect", fps);
 
     await page.click("#playBtn");
-    const START_TIMEOUT = 1000 * 60 * 180; // 3小时，给 VP9 转码+切片
-    const PLAY_TIMEOUT = 1000 * 60 * 5;    // 5分钟，理论上够了
-    const END_TIMEOUT = 1000 * 60 * 5;     // 5分钟，因为视频都不超过2分钟
-    const AFTER_END_WAIT = 3000; 
 
-    // 等待后端返回成功提示
-    await page.waitForFunction(() => {
-        const status = document.querySelector("#statusText")?.innerText || "";
-        return status.includes("Success") || status.includes("Failed");
-    }, null, { timeout: START_TIMEOUT });
+    console.log("Waiting for backend result...");
 
-    const statusText = await page.locator("#statusText").innerText();
+    const statusText = await waitUntilStatusDone(page);
 
     if (statusText.includes("Failed")) {
-        console.log(`Failed: ${videoName}, ${codec}, ${fps}`);
+        console.log(`Backend failed: ${videoName}, ${codec}, ${fps}`);
         console.log(statusText);
-        return;
+        throw new Error("Backend returned Failed");
     }
 
     console.log("Backend accepted, waiting for playback...");
 
-    // 等待视频真正开始播放
-    await page.waitForFunction(() => {
-        const video = document.querySelector("#videoPlayer");
-        return video && !video.paused && video.readyState >= 2;
-    }, null, { timeout: PLAY_TIMEOUT });
-
+    await waitUntilPlaybackStarted(page);
     console.log("Playback started.");
 
-    // 等待视频播放结束
-    await page.waitForFunction(() => {
-        const video = document.querySelector("#videoPlayer");
-        return video && video.ended;
-    }, null, { timeout: END_TIMEOUT });
-
+    await waitUntilPlaybackEnded(page);
     console.log("Playback ended.");
 
-    // 给 ended 事件里的 sendFrontendSummary() 留一点提交时间
-    await page.waitForTimeout(3000);
+    await page.waitForTimeout(AFTER_END_WAIT);
 
     console.log(`===== Finished: ${videoName}, ${codec}, ${fps} =====`);
 }
 
 (async () => {
+    const tests = readLostTests();
+
+    console.log(`Loaded ${tests.length} lost tests.`);
+
     const browser = await chromium.launch({
         headless: false
     });
 
     const page = await browser.newPage();
 
+    // 防止 Playwright 默认 30 秒超时背刺
+    page.setDefaultTimeout(WAIT_TIMEOUT);
+    page.setDefaultNavigationTimeout(WAIT_TIMEOUT);
+
     page.on("console", msg => {
         console.log("[browser]", msg.text());
     });
 
-    await page.goto(SERVER_URL);
+    for (const test of tests) {
+        const { videoName, codec, fps } = test;
 
-    for (const videoName of videos) {
-        for (const codec of codecs) {
-            for (const fps of fpsList) {
-                try {
-                    await runOneTest(page, videoName, codec, fps);
-                } catch (error) {
-                    console.log(`ERROR in ${videoName}, ${codec}, ${fps}`);
-                    console.log(error.message);
-                }
-            }
+        try {
+            await runOneTest(page, videoName, codec, fps);
+        } catch (error) {
+            console.log(`\nFATAL ERROR in ${videoName}, ${codec}, ${fps}`);
+            console.log(error.message);
+            console.log("Stop all tests. No next request will be sent.");
+
+            await browser.close();
+            process.exit(1);
         }
     }
 
-    console.log("\nAll tests finished.");
+    console.log("\nAll lost tests finished.");
     await browser.close();
 })();
