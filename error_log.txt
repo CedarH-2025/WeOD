@@ -1,0 +1,2007 @@
+===== Start: Beauty_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 24 =====
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [75015][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+Backend accepted, waiting for playback...
+[browser] [75048][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 75499.59999996424
+Playback started.
+[browser] frontend summary: {log_id: 20260511_031642_bc8c1f46, start_up_delay: 75499.59999996424, avg_buffer_level: 10.089488999999999, decoded_frames: 575, dropped_frames: 3}
+Playback ended.
+===== Finished: Beauty_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 24 =====
+
+===== Start: Beauty_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 30 =====
+Backend accepted, waiting for playback...
+[browser] [189522][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [189630][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 87802.30000001192
+Playback started.
+[browser] frontend summary: {log_id: 20260511_031824_6fabbbc4, start_up_delay: 87802.30000001192, avg_buffer_level: 10.20346375, decoded_frames: 720, dropped_frames: 1}
+Playback ended.
+===== Finished: Beauty_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 30 =====
+
+===== Start: Beauty_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 60 =====
+Backend accepted, waiting for playback...
+[browser] [376488][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [376532][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 159823.29999995232
+Playback started.
+[browser] frontend summary: {log_id: 20260511_032019_a35b6ce7, start_up_delay: 159823.29999995232, avg_buffer_level: 9.793260166666668, decoded_frames: 1440, dropped_frames: 6}
+Playback ended.
+===== Finished: Beauty_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 60 =====
+
+===== Start: Beauty_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 24 =====
+Backend accepted, waiting for playback...
+[browser] [598516][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 194805.70000004768
+Playback started.
+[browser] frontend summary: {log_id: 20260511_032326_7945612f, start_up_delay: 194805.70000004768, avg_buffer_level: 11.56781458333333, decoded_frames: 578, dropped_frames: 0}
+Playback ended.
+===== Finished: Beauty_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 24 =====
+
+===== Start: Beauty_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 30 =====
+Backend accepted, waiting for playback...
+[browser] [839916][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 214180.19999998808
+Playback started.
+[browser] frontend summary: {log_id: 20260511_032708_654a4930, start_up_delay: 214180.19999998808, avg_buffer_level: 11.327504749999997, decoded_frames: 720, dropped_frames: 0}
+Playback ended.
+===== Finished: Beauty_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 30 =====
+
+===== Start: Beauty_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 60 =====
+Backend accepted, waiting for playback...
+ERROR in Beauty_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 60
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: Beauty_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 24 =====
+Backend accepted, waiting for playback...
+[browser] [1190911][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 24435.69999998808
+Playback started.
+[browser] frontend summary: {log_id: 20260511_033109_2ec88279, start_up_delay: 24435.69999998808, avg_buffer_level: 11.218117083333333, decoded_frames: 1440, dropped_frames: 262}
+Playback ended.
+===== Finished: Beauty_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 24 =====
+
+===== Start: Beauty_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 30 =====
+Backend accepted, waiting for playback...
+ERROR in Beauty_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 30
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: Beauty_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 60 =====
+Backend accepted, waiting for playback...
+[browser] [1664746][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [1664798][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 146929.90000003576
+Playback started.
+[browser] frontend summary: {log_id: 20260511_033609_4ede4fa3, start_up_delay: 146929.90000003576, avg_buffer_level: 12.031407583333332, decoded_frames: 576, dropped_frames: 21}
+Playback ended.
+===== Finished: Beauty_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 60 =====
+
+===== Start: Bosphorus_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 24 =====
+Backend accepted, waiting for playback...
+[browser] [1880893][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [1880966][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 189845.10000002384
+Playback started.
+[browser] frontend summary: {log_id: 20260511_034454_a4535476, start_up_delay: 189845.10000002384, avg_buffer_level: 11.598920416666667, decoded_frames: 576, dropped_frames: 33}
+Playback ended.
+===== Finished: Bosphorus_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 24 =====
+
+===== Start: Bosphorus_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 30 =====
+Backend accepted, waiting for playback...
+[browser] [1942291][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [1942451][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 33954.80000001192
+Playback started.
+[browser] frontend summary: {log_id: 20260511_033700_727431ad, start_up_delay: 33954.80000001192, avg_buffer_level: 11.345338249999998, decoded_frames: 720, dropped_frames: 33}
+Playback ended.
+===== Finished: Bosphorus_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 30 =====
+
+===== Start: Bosphorus_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 60 =====
+Backend accepted, waiting for playback...
+[browser] [2148557][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [2148654][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 179731.30000001192
+Playback started.
+[browser] frontend summary: {log_id: 20260511_034831_b4c052ed, start_up_delay: 179731.30000001192, avg_buffer_level: 11.464856166666664, decoded_frames: 720, dropped_frames: 72}
+Playback ended.
+===== Finished: Bosphorus_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 60 =====
+
+===== Start: Bosphorus_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 24 =====
+Backend accepted, waiting for playback...
+[browser] [2323526][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [2323607][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 146860.19999998808
+Playback started.
+[browser] frontend summary: {log_id: 20260511_034932_54fe4be7, start_up_delay: 146860.19999998808, avg_buffer_level: 10.851029666666667, decoded_frames: 1440, dropped_frames: 261}
+Playback ended.
+===== Finished: Bosphorus_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 24 =====
+
+===== Start: Bosphorus_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 30 =====
+Backend accepted, waiting for playback...
+ERROR in Bosphorus_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 30
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: Bosphorus_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 60 =====
+Backend accepted, waiting for playback...
+[browser] [2814178][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [2814239][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 163010.19999998808
+Playback started.
+[browser] frontend summary: {log_id: 20260511_034200_7b0348c6, start_up_delay: 163010.19999998808, avg_buffer_level: 10.301782, decoded_frames: 1434, dropped_frames: 45}
+Playback ended.
+===== Finished: Bosphorus_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 60 =====
+
+===== Start: Bosphorus_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 24 =====
+Backend accepted, waiting for playback...
+ERROR in Bosphorus_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 24
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: Bosphorus_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 30 =====
+Backend accepted, waiting for playback...
+[browser] [3437705][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [3437770][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 296533.89999997616
+Playback started.
+[browser] frontend summary: {log_id: 20260511_040403_1e5d0bc1, start_up_delay: 296533.89999997616, avg_buffer_level: 11.364600750000001, decoded_frames: 576, dropped_frames: 25}
+Playback ended.
+===== Finished: Bosphorus_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 30 =====
+
+===== Start: Bosphorus_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 60 =====
+Backend accepted, waiting for playback...
+ERROR in Bosphorus_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 60
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: game1, libx264, 24 =====
+Backend accepted, waiting for playback...
+[browser] [3806992][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 42650.30000001192
+Playback started.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] frontend summary: {log_id: 20260511_041927_24ae82ee, start_up_delay: 42650.30000001192, avg_buffer_level: 14.68443429411765, decoded_frames: 819, dropped_frames: 41}
+Playback ended.
+===== Finished: game1, libx264, 24 =====
+
+===== Start: game1, libx264, 30 =====
+Backend accepted, waiting for playback...
+[browser] [3894241][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 49535.80000001192
+Playback started.
+[browser] frontend summary: {log_id: 20260511_042047_2d6ea63b, start_up_delay: 49535.80000001192, avg_buffer_level: 15.158283588235296, decoded_frames: 1026, dropped_frames: 53}
+Playback ended.
+===== Finished: game1, libx264, 30 =====
+
+===== Start: game1, libx264, 60 =====
+Backend accepted, waiting for playback...
+[browser] [4008881][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 76931.5
+Playback started.
+[browser] frontend summary: {log_id: 20260511_042214_41be1f0f, start_up_delay: 76931.5, avg_buffer_level: 15.13856782352941, decoded_frames: 2052, dropped_frames: 365}
+Playback ended.
+[browser] [4045370][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+===== Finished: game1, libx264, 60 =====
+
+===== Start: game1, libx265, 24 =====
+Backend accepted, waiting for playback...
+Playback started.
+[browser] No log_id, skip frontend summary.
+Playback ended.
+===== Finished: game1, libx265, 24 =====
+
+===== Start: game1, libx265, 30 =====
+Backend accepted, waiting for playback...
+[browser] [4086778][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [4086889][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 12837.5
+Playback started.
+[browser] frontend summary: {log_id: 20260511_040903_0cbfefcb, start_up_delay: 12837.5, avg_buffer_level: 11.53625175, decoded_frames: 720, dropped_frames: 24}
+Playback ended.
+===== Finished: game1, libx265, 30 =====
+
+===== Start: game1, libx265, 60 =====
+Backend accepted, waiting for playback...
+ERROR in game1, libx265, 60
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: game1, libvpx-vp9, 24 =====
+Backend accepted, waiting for playback...
+ERROR in game1, libvpx-vp9, 24
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: game1, libvpx-vp9, 30 =====
+Backend accepted, waiting for playback...
+[browser] [4757865][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [4767879][HTTPLoader] Request timeout: non-computable download size
+[browser] [4767881][HTTPLoader] Request timeout: non-computable download size
+[browser] [4778388][HTTPLoader] Request timeout: non-computable download size
+[browser] [4778388][HTTPLoader] Request timeout: non-computable download size
+[browser] [4788896][HTTPLoader] Request timeout: non-computable download size
+[browser] [4788898][HTTPLoader] Request timeout: non-computable download size
+[browser] [4799405][HTTPLoader] Request timeout: non-computable download size
+[browser] [4799405][HTTPLoader] Request timeout: non-computable download size
+[browser] [4814880][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [4824888][HTTPLoader] Request timeout: non-computable download size
+[browser] [4824888][HTTPLoader] Request timeout: non-computable download size
+[browser] [4832708][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 119444.80000001192
+Playback started.
+[browser] frontend summary: {log_id: 20260511_035553_db4b97b2, start_up_delay: 119444.80000001192, avg_buffer_level: 12.178693583333333, decoded_frames: 720, dropped_frames: 29}
+Playback ended.
+===== Finished: game1, libvpx-vp9, 30 =====
+
+===== Start: game1, libvpx-vp9, 60 =====
+Backend accepted, waiting for playback...
+ERROR in game1, libvpx-vp9, 60
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: HoneyBee_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 24 =====
+Backend accepted, waiting for playback...
+[browser] [5168097][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [5178115][HTTPLoader] Request timeout: non-computable download size
+[browser] [5178116][HTTPLoader] Request timeout: non-computable download size
+[browser] [5188619][HTTPLoader] Request timeout: non-computable download size
+[browser] [5188620][HTTPLoader] Request timeout: non-computable download size
+[browser] [5199125][HTTPLoader] Request timeout: non-computable download size
+[browser] [5199126][HTTPLoader] Request timeout: non-computable download size
+[browser] [5209631][HTTPLoader] Request timeout: non-computable download size
+[browser] [5209631][HTTPLoader] Request timeout: non-computable download size
+[browser] [5253407][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [5253594][StreamProcessor][video] Adjusting playback time 0.008 because of gap in the manifest. Seeking by 0.008
+[browser] start-up delay: 93108.80000001192
+Playback started.
+[browser] frontend summary: {log_id: 20260511_043600_ed6c6f92, start_up_delay: 93108.80000001192, avg_buffer_level: 14.858251647058824, decoded_frames: 820, dropped_frames: 53}
+Playback ended.
+===== Finished: HoneyBee_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 24 =====
+
+===== Start: HoneyBee_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 30 =====
+Backend accepted, waiting for playback...
+[browser] [5343770][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [5343881][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 53489
+Playback started.
+[browser] frontend summary: {log_id: 20260511_044250_7c7bf887, start_up_delay: 53489, avg_buffer_level: 11.07536725, decoded_frames: 573, dropped_frames: 26}
+Playback ended.
+===== Finished: HoneyBee_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 30 =====
+
+===== Start: HoneyBee_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 60 =====
+Backend accepted, waiting for playback...
+[browser] [5517586][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [5517705][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 147215.69999998808
+Playback started.
+[browser] frontend summary: {log_id: 20260511_044453_113e9506, start_up_delay: 147215.69999998808, avg_buffer_level: 11.979859916666667, decoded_frames: 720, dropped_frames: 23}
+Playback ended.
+===== Finished: HoneyBee_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 60 =====
+
+===== Start: HoneyBee_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 24 =====
+Backend accepted, waiting for playback...
+[browser] [5627686][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [5627896][StreamProcessor][video] Adjusting playback time 0.008 because of gap in the manifest. Seeking by 0.008
+[browser] start-up delay: 82043.30000001192
+Playback started.
+[browser] [5654066][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [5654110][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] frontend summary: {log_id: 20260511_044614_6f62c9d7, start_up_delay: 82043.30000001192, avg_buffer_level: 11.311361666666665, decoded_frames: 1440, dropped_frames: 298}
+Playback ended.
+===== Finished: HoneyBee_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 24 =====
+
+===== Start: HoneyBee_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 30 =====
+Backend accepted, waiting for playback...
+[browser] [5818093][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 136698.10000002384
+Playback started.
+[browser] frontend summary: {log_id: 20260511_042516_ddf47829, start_up_delay: 136698.10000002384, avg_buffer_level: 16.571582529411764, decoded_frames: 2052, dropped_frames: 344}
+Playback ended.
+===== Finished: HoneyBee_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 30 =====
+
+===== Start: HoneyBee_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 60 =====
+Backend accepted, waiting for playback...
+[browser] [6061714][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [6061813][StreamProcessor][video] Adjusting playback time 0.008 because of gap in the manifest. Seeking by 0.008
+[browser] start-up delay: 205705
+Playback started.
+[browser] frontend summary: {log_id: 20260511_043743_5853957a, start_up_delay: 205705, avg_buffer_level: 15.331196823529414, decoded_frames: 2046, dropped_frames: 220}
+Playback ended.
+===== Finished: HoneyBee_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 60 =====
+
+===== Start: HoneyBee_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 24 =====
+Backend accepted, waiting for playback...
+ERROR in HoneyBee_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 24
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: HoneyBee_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 30 =====
+Backend accepted, waiting for playback...
+ERROR in HoneyBee_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 30
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: HoneyBee_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 60 =====
+Backend accepted, waiting for playback...
+[browser] [6759542][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [6769551][HTTPLoader] Request timeout: non-computable download size
+[browser] [6769553][HTTPLoader] Request timeout: non-computable download size
+[browser] [6780054][HTTPLoader] Request timeout: non-computable download size
+[browser] [6780056][HTTPLoader] Request timeout: non-computable download size
+[browser] [6790563][HTTPLoader] Request timeout: non-computable download size
+[browser] [6790564][HTTPLoader] Request timeout: non-computable download size
+[browser] [6801074][HTTPLoader] Request timeout: non-computable download size
+[browser] [6801074][HTTPLoader] Request timeout: non-computable download size
+[browser] [6891371][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 192240.39999997616
+Playback started.
+[browser] frontend summary: {log_id: 20260511_044908_a29c3092, start_up_delay: 192240.39999997616, avg_buffer_level: 11.975314500000001, decoded_frames: 578, dropped_frames: 4}
+Playback ended.
+===== Finished: HoneyBee_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 60 =====
+
+===== Start: Jockey_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 24 =====
+Backend accepted, waiting for playback...
+[browser] [7124138][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [7124420][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 205656.19999998808
+Playback started.
+[browser] frontend summary: {log_id: 20260511_051201_23b499e7, start_up_delay: 205656.19999998808, avg_buffer_level: 9.846550166666665, decoded_frames: 576, dropped_frames: 3}
+Playback ended.
+===== Finished: Jockey_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 24 =====
+
+===== Start: Jockey_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 30 =====
+Backend accepted, waiting for playback...
+[browser] [7368471][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [7368518][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 217714.30000001192
+Playback started.
+[browser] [7370688][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [7370762][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] frontend summary: {log_id: 20260511_050322_b741adca, start_up_delay: 217714.30000001192, avg_buffer_level: 11.403646499999999, decoded_frames: 720, dropped_frames: 0}
+Playback ended.
+===== Finished: Jockey_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 30 =====
+
+===== Start: Jockey_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 60 =====
+Backend accepted, waiting for playback...
+[browser] [7618336][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [7618373][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 220699.5
+Playback started.
+[browser] frontend summary: {log_id: 20260511_052000_40707f74, start_up_delay: 220699.5, avg_buffer_level: 10.417755416666667, decoded_frames: 1440, dropped_frames: 5}
+Playback ended.
+===== Finished: Jockey_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 60 =====
+
+===== Start: Jockey_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 24 =====
+Backend accepted, waiting for playback...
+[browser] [7789519][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 144313.89999997616
+Playback started.
+[browser] frontend summary: {log_id: 20260511_045123_6505e610, start_up_delay: 144313.89999997616, avg_buffer_level: 11.622186583333333, decoded_frames: 720, dropped_frames: 0}
+Playback ended.
+===== Finished: Jockey_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 24 =====
+
+===== Start: Jockey_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 30 =====
+Backend accepted, waiting for playback...
+[browser] [7834434][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 17610.5
+Playback started.
+[browser] frontend summary: {log_id: 20260511_040053_4497e1f8, start_up_delay: 17610.5, avg_buffer_level: 11.046860416666663, decoded_frames: 1440, dropped_frames: 1}
+Playback ended.
+===== Finished: Jockey_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 30 =====
+
+===== Start: Jockey_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 60 =====
+Backend accepted, waiting for playback...
+[browser] [7969730][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [7969785][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 108579.69999998808
+Playback started.
+[browser] frontend summary: {log_id: 20260511_050921_27f0acce, start_up_delay: 108579.69999998808, avg_buffer_level: 11.496904583333334, decoded_frames: 1434, dropped_frames: 2}
+Playback ended.
+===== Finished: Jockey_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 60 =====
+
+===== Start: Jockey_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 24 =====
+Backend accepted, waiting for playback...
+[browser] [8255922][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [8255983][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] [8256866][StreamProcessor][video] Adjusting playback time 23.982999999999997 because of gap in the manifest. Seeking by -0.10000000000000142
+[browser] [8258044][GapController] Jumping to end of stream because of gap from 23.982999 to 24. Gap duration: 0.017001000000000488
+[browser] start-up delay: 260829.30000001192
+[browser] frontend summary: {log_id: 20260511_052959_e6dac3b6, start_up_delay: 260829.30000001192, avg_buffer_level: 0.016000999999999266, decoded_frames: 59, dropped_frames: 0}
+ERROR in Jockey_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 24
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: Jockey_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 30 =====
+Backend accepted, waiting for playback...
+[browser] [8590442][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [8590477][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 293368.7000000477
+Playback started.
+[browser] frontend summary: {log_id: 20260511_053459_a8cba580, start_up_delay: 293368.7000000477, avg_buffer_level: 11.277694166666668, decoded_frames: 720, dropped_frames: 27}
+Playback ended.
+===== Finished: Jockey_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 30 =====
+
+===== Start: Jockey_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 60 =====
+Backend accepted, waiting for playback...
+[browser] [8674270][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 56860.19999998808
+Playback started.
+[browser] frontend summary: {log_id: 20260511_045418_bc6457cd, start_up_delay: 56860.19999998808, avg_buffer_level: 11.342752833333336, decoded_frames: 1440, dropped_frames: 261}
+Playback ended.
+===== Finished: Jockey_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 60 =====
+
+===== Start: ReadySetGo_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 24 =====
+Backend accepted, waiting for playback...
+[browser] [8814122][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [8814302][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 113738.69999998808
+Playback started.
+[browser] frontend summary: {log_id: 20260511_054143_fdde291f, start_up_delay: 113738.69999998808, avg_buffer_level: 11.003419499999998, decoded_frames: 573, dropped_frames: 38}
+Playback ended.
+===== Finished: ReadySetGo_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 24 =====
+
+===== Start: ReadySetGo_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 30 =====
+Backend accepted, waiting for playback...
+[browser] [8970653][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [8970810][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 130229
+Playback started.
+[browser] frontend summary: {log_id: 20260511_054404_7abd39e5, start_up_delay: 130229, avg_buffer_level: 11.521715083333332, decoded_frames: 720, dropped_frames: 55}
+Playback ended.
+===== Finished: ReadySetGo_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 30 =====
+
+===== Start: ReadySetGo_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 60 =====
+Backend accepted, waiting for playback...
+[browser] [9194544][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [9194624][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 195833.19999998808
+Playback started.
+[browser] frontend summary: {log_id: 20260511_054641_e6e9be1c, start_up_delay: 195833.19999998808, avg_buffer_level: 10.582583499999998, decoded_frames: 1440, dropped_frames: 258}
+Playback ended.
+===== Finished: ReadySetGo_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 60 =====
+
+===== Start: ReadySetGo_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 24 =====
+Backend accepted, waiting for playback...
+[browser] [9345047][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [9345091][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 122896.5
+Playback started.
+[browser] frontend summary: {log_id: 20260511_054019_bd58005e, start_up_delay: 122896.5, avg_buffer_level: 10.988874583333333, decoded_frames: 1434, dropped_frames: 269}
+Playback ended.
+===== Finished: ReadySetGo_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 24 =====
+
+===== Start: ReadySetGo_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 30 =====
+Backend accepted, waiting for playback...
+[browser] [9405199][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 33431
+Playback started.
+[browser] frontend summary: {log_id: 20260511_052408_3ce4d7a5, start_up_delay: 33431, avg_buffer_level: 11.658137416666664, decoded_frames: 578, dropped_frames: 33}
+Playback ended.
+===== Finished: ReadySetGo_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 30 =====
+
+===== Start: ReadySetGo_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 60 =====
+Backend accepted, waiting for playback...
+[browser] [9565485][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 133707.40000003576
+Playback started.
+[browser] frontend summary: {log_id: 20260511_052659_475f82b5, start_up_delay: 133707.40000003576, avg_buffer_level: 12.078840249999999, decoded_frames: 720, dropped_frames: 37}
+Playback ended.
+===== Finished: ReadySetGo_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 60 =====
+
+===== Start: ReadySetGo_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 24 =====
+Backend accepted, waiting for playback...
+ERROR in ReadySetGo_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 24
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: ReadySetGo_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 30 =====
+Backend accepted, waiting for playback...
+[browser] [9923606][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [9923916][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 30479.900000035763
+Playback started.
+[browser] frontend summary: {log_id: 20260511_055635_65063cad, start_up_delay: 30479.900000035763, avg_buffer_level: 11.524568583333332, decoded_frames: 576, dropped_frames: 22}
+Playback ended.
+===== Finished: ReadySetGo_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 30 =====
+
+===== Start: ReadySetGo_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 60 =====
+Backend accepted, waiting for playback...
+ERROR in ReadySetGo_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 60
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: nature, libx264, 24 =====
+Backend accepted, waiting for playback...
+[browser] [10467188][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [10477197][HTTPLoader] Request timeout: non-computable download size
+[browser] [10477198][HTTPLoader] Request timeout: non-computable download size
+[browser] [10487713][HTTPLoader] Request timeout: non-computable download size
+[browser] [10487714][HTTPLoader] Request timeout: non-computable download size
+[browser] [10498222][HTTPLoader] Request timeout: non-computable download size
+[browser] [10498223][HTTPLoader] Request timeout: non-computable download size
+[browser] [10508725][HTTPLoader] Request timeout: non-computable download size
+[browser] [10508726][HTTPLoader] Request timeout: non-computable download size
+ERROR in nature, libx264, 24
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: nature, libx264, 30 =====
+Backend accepted, waiting for playback...
+[browser] [10557858][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [10567868][HTTPLoader] Request timeout: non-computable download size
+[browser] [10567869][HTTPLoader] Request timeout: non-computable download size
+[browser] [10578373][HTTPLoader] Request timeout: non-computable download size
+[browser] [10578374][HTTPLoader] Request timeout: non-computable download size
+[browser] [10588880][HTTPLoader] Request timeout: non-computable download size
+[browser] [10588881][HTTPLoader] Request timeout: non-computable download size
+[browser] [10599385][HTTPLoader] Request timeout: non-computable download size
+[browser] [10599385][HTTPLoader] Request timeout: non-computable download size
+[browser] [10662186][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 112214.5
+Playback started.
+[browser] frontend summary: {log_id: 20260511_061240_182bd61c, start_up_delay: 112214.5, avg_buffer_level: 19.516466933333337, decoded_frames: 1812, dropped_frames: 38}
+Playback ended.
+===== Finished: nature, libx264, 30 =====
+
+===== Start: nature, libx264, 60 =====
+Backend accepted, waiting for playback...
+[browser] [10898041][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 172057.10000002384
+Playback started.
+[browser] frontend summary: {log_id: 20260511_061529_57f3894d, start_up_delay: 172057.10000002384, avg_buffer_level: 19.906725733333335, decoded_frames: 3624, dropped_frames: 592}
+Playback ended.
+===== Finished: nature, libx264, 60 =====
+
+===== Start: nature, libx265, 24 =====
+Backend accepted, waiting for playback...
+[browser] [11022480][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [11022598][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 60135.59999996424
+Playback started.
+[browser] frontend summary: {log_id: 20260511_060233_a0f38526, start_up_delay: 60135.59999996424, avg_buffer_level: 10.472397083333334, decoded_frames: 1434, dropped_frames: 258}
+Playback ended.
+[browser] [11048946][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+===== Finished: nature, libx265, 24 =====
+
+===== Start: nature, libx265, 30 =====
+Backend accepted, waiting for playback...
+Playback started.
+[browser] start-up delay: 447
+[browser] [11067264][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] frontend summary: {log_id: 20260511_052743_a05d9605, start_up_delay: 447, avg_buffer_level: 11.317691666666663, decoded_frames: 1440, dropped_frames: 286}
+Playback ended.
+===== Finished: nature, libx265, 30 =====
+
+===== Start: nature, libx265, 60 =====
+Backend accepted, waiting for playback...
+[browser] [11214131][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 120076.69999998808
+Playback started.
+[browser] frontend summary: {log_id: 20260511_055254_489851ce, start_up_delay: 120076.69999998808, avg_buffer_level: 11.57685025, decoded_frames: 720, dropped_frames: 23}
+Playback ended.
+===== Finished: nature, libx265, 60 =====
+
+===== Start: nature, libvpx-vp9, 24 =====
+Backend accepted, waiting for playback...
+[browser] [11421928][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 181269.40000003576
+Playback started.
+[browser] frontend summary: {log_id: 20260511_061924_e9c89294, start_up_delay: 181269.40000003576, avg_buffer_level: 23.628966633333338, decoded_frames: 1451, dropped_frames: 39}
+Playback ended.
+===== Finished: nature, libvpx-vp9, 24 =====
+
+===== Start: nature, libvpx-vp9, 30 =====
+Backend accepted, waiting for playback...
+[browser] [11632946][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 146614
+Playback started.
+[browser] frontend summary: {log_id: 20260511_062052_2c2acce4, start_up_delay: 146614, avg_buffer_level: 23.25998776666667, decoded_frames: 1813, dropped_frames: 64}
+Playback ended.
+===== Finished: nature, libvpx-vp9, 30 =====
+
+===== Start: nature, libvpx-vp9, 60 =====
+Backend accepted, waiting for playback...
+[browser] [11766000][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [11766095][StreamProcessor][video] Adjusting playback time 0.008 because of gap in the manifest. Seeking by 0.008
+[browser] start-up delay: 68915.60000002384
+Playback started.
+[browser] frontend summary: {log_id: 20260511_062403_193a0674, start_up_delay: 68915.60000002384, avg_buffer_level: 20.84254779999999, decoded_frames: 1449, dropped_frames: 12}
+Playback ended.
+===== Finished: nature, libvpx-vp9, 60 =====
+
+===== Start: sea, libx264, 24 =====
+Backend accepted, waiting for playback...
+[browser] [11939296][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [11939336][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 110938.39999997616
+Playback started.
+[browser] [11950649][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] frontend summary: {log_id: 20260511_055355_b7c33fe5, start_up_delay: 110938.39999997616, avg_buffer_level: 12.049208916666666, decoded_frames: 1440, dropped_frames: 261}
+Playback ended.
+===== Finished: sea, libx264, 24 =====
+
+===== Start: sea, libx264, 30 =====
+Backend accepted, waiting for playback...
+[browser] [12100277][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [12100340][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 123637.40000003576
+Playback started.
+[browser] frontend summary: {log_id: 20260511_063620_4cb29fd7, start_up_delay: 123637.40000003576, avg_buffer_level: 14.797764555555558, decoded_frames: 1062, dropped_frames: 30}
+Playback ended.
+===== Finished: sea, libx264, 30 =====
+
+===== Start: sea, libx264, 60 =====
+Backend accepted, waiting for playback...
+[browser] [12298418][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [12298809][StreamProcessor][video] Adjusting playback time 0.008 because of gap in the manifest. Seeking by 0.008
+[browser] start-up delay: 158295.30000001192
+Playback started.
+[browser] [12323315][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [12323338][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] frontend summary: {log_id: 20260511_063903_ae7ec56d, start_up_delay: 158295.30000001192, avg_buffer_level: 15.055882611111112, decoded_frames: 2129, dropped_frames: 397}
+Playback ended.
+===== Finished: sea, libx264, 60 =====
+
+===== Start: sea, libx265, 24 =====
+Backend accepted, waiting for playback...
+[browser] [12396597][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 34776.60000002384
+Playback started.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12434468][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12437695][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12440854][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12444041][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12447209][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12450405][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12453585][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12456797][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12459871][GapController] Jumping to end of stream because of gap from 60.34256 to 60.416. Gap duration: 0.07343999999999795
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12461867][GapController] Jumping to end of stream because of gap from 60.399999 to 60.416. Gap duration: 0.016000999999995713
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12465070][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12468360][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12471580][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12474961][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12478178][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12481408][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12484574][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12487824][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12491248][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12494693][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12497933][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12501069][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12504247][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12507397][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12510600][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12513777][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12517997][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12521247][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12524424][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12527672][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12530841][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12534107][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12537524][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12540702][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12543876][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12547027][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12550200][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12553381][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12556621][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12559791][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12562939][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12566120][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [12569074][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] frontend summary: {log_id: 20260511_064245_0dd836f6, start_up_delay: 34776.60000002384, avg_buffer_level: 16.02147488888889, decoded_frames: 854, dropped_frames: 25}
+Playback ended.
+===== Finished: sea, libx265, 24 =====
+
+===== Start: sea, libx265, 30 =====
+Backend accepted, waiting for playback...
+[browser] [12809210][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 201552.09999996424
+Playback started.
+[browser] frontend summary: {log_id: 20260511_064650_9d010ca0, start_up_delay: 201552.09999996424, avg_buffer_level: 16.314742611111104, decoded_frames: 1067, dropped_frames: 50}
+Playback ended.
+===== Finished: sea, libx265, 30 =====
+
+===== Start: sea, libx265, 60 =====
+Backend accepted, waiting for playback...
+[browser] [13004617][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [13004711][StreamProcessor][video] Adjusting playback time 0.008 because of gap in the manifest. Seeking by 0.008
+[browser] start-up delay: 156044.89999997616
+Playback started.
+[browser] frontend summary: {log_id: 20260511_063139_34566db9, start_up_delay: 156044.89999997616, avg_buffer_level: 21.7243067, decoded_frames: 3618, dropped_frames: 561}
+Playback ended.
+===== Finished: sea, libx265, 60 =====
+
+===== Start: sea, libvpx-vp9, 24 =====
+Backend accepted, waiting for playback...
+[browser] [13108612][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 40866.69999998808
+Playback started.
+Playback ended.
+[browser] frontend summary: {log_id: 20260511_065051_8f538df2, start_up_delay: 40866.69999998808, avg_buffer_level: 15.818633444444446, decoded_frames: 2131, dropped_frames: 367}
+===== Finished: sea, libvpx-vp9, 24 =====
+
+===== Start: sea, libvpx-vp9, 30 =====
+Backend accepted, waiting for playback...
+ERROR in sea, libvpx-vp9, 30
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: sea, libvpx-vp9, 60 =====
+Backend accepted, waiting for playback...
+[browser] [13605311][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [13605484][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 157789.30000001192
+Playback started.
+[browser] frontend summary: {log_id: 20260511_065431_4a8cde3e, start_up_delay: 157789.30000001192, avg_buffer_level: 16.363822055555556, decoded_frames: 852, dropped_frames: 25}
+Playback ended.
+===== Finished: sea, libvpx-vp9, 60 =====
+
+===== Start: ShakeNDry_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 24 =====
+Backend accepted, waiting for playback...
+[browser] [13740158][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [13740247][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 97490.69999998808
+Playback started.
+[browser] frontend summary: {log_id: 20260511_070406_e6345a24, start_up_delay: 97490.69999998808, avg_buffer_level: 6.574252666666666, decoded_frames: 286, dropped_frames: 18}
+Playback ended.
+===== Finished: ShakeNDry_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 24 =====
+
+===== Start: ShakeNDry_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 30 =====
+Backend accepted, waiting for playback...
+[browser] [13864426][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [13864568][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 109087.5
+Playback started.
+[browser] frontend summary: {log_id: 20260511_070559_c93ebc0c, start_up_delay: 109087.5, avg_buffer_level: 5.9776405, decoded_frames: 360, dropped_frames: 30}
+Playback ended.
+===== Finished: ShakeNDry_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 30 =====
+
+===== Start: ShakeNDry_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 60 =====
+Backend accepted, waiting for playback...
+[browser] [13945278][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [13945338][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 64769.60000002384
+Playback started.
+[browser] frontend summary: {log_id: 20260511_065550_f8af1125, start_up_delay: 64769.60000002384, avg_buffer_level: 17.270275764705886, decoded_frames: 1065, dropped_frames: 32}
+Playback ended.
+===== Finished: ShakeNDry_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 60 =====
+
+===== Start: ShakeNDry_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 24 =====
+Backend accepted, waiting for playback...
+[browser] [14011988][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [14012067][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 28716.19999998808
+Playback started.
+[browser] frontend summary: {log_id: 20260511_070803_2e78fc8a, start_up_delay: 28716.19999998808, avg_buffer_level: 5.4610785, decoded_frames: 720, dropped_frames: 151}
+Playback ended.
+===== Finished: ShakeNDry_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 24 =====
+
+===== Start: ShakeNDry_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 30 =====
+Backend accepted, waiting for playback...
+ERROR in ShakeNDry_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 30
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: ShakeNDry_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 60 =====
+Backend accepted, waiting for playback...
+[browser] [14562689][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [14562749][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 235042.5
+Playback started.
+[browser] frontend summary: {log_id: 20260511_070050_cc74776c, start_up_delay: 235042.5, avg_buffer_level: 15.622319500000003, decoded_frames: 2130, dropped_frames: 45}
+Playback ended.
+===== Finished: ShakeNDry_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 60 =====
+
+===== Start: ShakeNDry_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 24 =====
+Backend accepted, waiting for playback...
+[browser] [14603013][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 2287.899999976158
+Playback started.
+[browser] frontend summary: {log_id: 20260511_070946_285134d9, start_up_delay: 2287.899999976158, avg_buffer_level: 6.146984000000001, decoded_frames: 290, dropped_frames: 11}
+Playback ended.
+===== Finished: ShakeNDry_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 24 =====
+
+===== Start: ShakeNDry_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 30 =====
+Backend accepted, waiting for playback...
+[browser] [14851599][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [14851638][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 232716.30000001192
+Playback started.
+[browser] frontend summary: {log_id: 20260511_072004_9dfc280e, start_up_delay: 232716.30000001192, avg_buffer_level: 5.260985333333334, decoded_frames: 288, dropped_frames: 15}
+Playback ended.
+===== Finished: ShakeNDry_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 30 =====
+
+===== Start: ShakeNDry_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 60 =====
+Backend accepted, waiting for playback...
+[browser] [14902511][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 36724
+Playback started.
+[browser] [14912595][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [14912631][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] frontend summary: {log_id: 20260511_072021_fe357923, start_up_delay: 36724, avg_buffer_level: 5.197682166666667, decoded_frames: 360, dropped_frames: 28}
+Playback ended.
+===== Finished: ShakeNDry_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 60 =====
+
+===== Start: sport, libx264, 24 =====
+Backend accepted, waiting for playback...
+[browser] [15044762][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 118114.5
+Playback started.
+[browser] frontend summary: {log_id: 20260511_072530_140fac82, start_up_delay: 118114.5, avg_buffer_level: 19.101130888888896, decoded_frames: 1736, dropped_frames: 0}
+Playback ended.
+===== Finished: sport, libx264, 24 =====
+
+===== Start: sport, libx264, 30 =====
+Backend accepted, waiting for playback...
+[browser] [15252977][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 132635.60000002384
+Playback started.
+[browser] [15308620][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] frontend summary: {log_id: 20260511_071530_c867d0ac, start_up_delay: 132635.60000002384, avg_buffer_level: 5.496586500000002, decoded_frames: 720, dropped_frames: 3}
+Playback ended.
+===== Finished: sport, libx264, 30 =====
+
+===== Start: sport, libx264, 60 =====
+Backend accepted, waiting for playback...
+[browser] [15408066][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [15408139][CapabilitiesFilter] [CapabilitiesFilter] AdaptationSet with ID 1 and codec undefined has been removed because of no supported Representation
+[browser] start-up delay: 84164.89999997616
+Playback started.
+[browser] frontend summary: {log_id: 20260511_072429_e691c971, start_up_delay: 84164.89999997616, avg_buffer_level: 5.165310999999999, decoded_frames: 714, dropped_frames: 1}
+Playback ended.
+===== Finished: sport, libx264, 60 =====
+
+===== Start: sport, libx265, 24 =====
+Backend accepted, waiting for playback...
+[browser] [15483569][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 62117.5
+Playback started.
+[browser] frontend summary: {log_id: 20260511_073206_3e88c314, start_up_delay: 62117.5, avg_buffer_level: 20.958533513513512, decoded_frames: 4344, dropped_frames: 0}
+Playback ended.
+===== Finished: sport, libx265, 24 =====
+
+===== Start: sport, libx265, 30 =====
+Backend accepted, waiting for playback...
+[browser] [15604138][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 43856.19999998808
+Playback started.
+[browser] frontend summary: {log_id: 20260511_073345_7f528fe1, start_up_delay: 43856.19999998808, avg_buffer_level: 24.692766527777778, decoded_frames: 1739, dropped_frames: 0}
+Playback ended.
+===== Finished: sport, libx265, 30 =====
+
+===== Start: sport, libx265, 60 =====
+Backend accepted, waiting for playback...
+[browser] [15722932][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 43757.60000002384
+Playback started.
+[browser] frontend summary: {log_id: 20260511_073603_22b799d4, start_up_delay: 43757.60000002384, avg_buffer_level: 24.01520897222223, decoded_frames: 2174, dropped_frames: 0}
+Playback ended.
+===== Finished: sport, libx265, 60 =====
+
+===== Start: sport, libvpx-vp9, 24 =====
+Backend accepted, waiting for playback...
+[browser] [15963045][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 163706.09999996424
+Playback started.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16011935][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16015089][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16018335][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16021501][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16024621][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16027787][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16030977][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16034178][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16037328][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16038128][GapController] Jumping to end of stream because of gap from 72.34276 to 72.405. Gap duration: 0.06224000000000274
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16040124][GapController] Jumping to end of stream because of gap from 72.399999 to 72.405. Gap duration: 0.005001000000007139
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16043473][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16046602][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16049796][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16053162][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16056308][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16059462][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16062655][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16065905][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16069121][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16072292][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16075437][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16079161][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16082491][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16085823][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16089068][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16092254][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16095386][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16098602][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16101802][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16105169][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16108435][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16111589][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16114820][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16118056][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16121375][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16124697][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16127879][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16131167][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16134362][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16137532][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16140653][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16143895][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16147021][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16150286][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16153414][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16156686][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16160159][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16164452][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16167588][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16170742][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16173952][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16177317][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16180642][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16184872][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16188037][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16191342][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16194866][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16198042][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16201254][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16204530][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16207805][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16211008][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16214332][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16217465][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16220685][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16223936][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16227272][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16230530][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16233685][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16236866][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16240019][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16243240][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16246377][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16249489][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16252692][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16255876][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16259057][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16262277][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+ERROR in sport, libvpx-vp9, 24
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: sport, libvpx-vp9, 30 =====
+Backend accepted, waiting for playback...
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16265515][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16268859][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16272048][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16275285][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16278661][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16281993][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16285296][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16288578][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16291851][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16295242][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16298583][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16301971][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16305204][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16308521][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16311628][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16314865][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16318191][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16321467][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16324857][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16328077][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16331258][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16334493][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16337839][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16341042][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16344537][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16347766][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16350905][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16354287][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16357622][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16360954][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16364481][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16367961][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16371241][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16374555][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16377837][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16381063][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16384312][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16387524][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16390696][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16393955][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16397153][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16400510][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16403713][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16407078][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16410325][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16413557][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16416849][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16420195][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16423720][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16427214][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16430532][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16433968][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16437241][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16440471][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16443736][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16447043][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16450289][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16453619][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16456811][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16460101][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16463342][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16466536][FragmentController] No video bytes to push or stream is inactive.
+[browser] Failed to load resource: the server responded with a status of 404 (NOT FOUND)
+[browser] [16467142][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [16467221][StreamProcessor][video] Adjusting playback time 0.008 because of gap in the manifest. Seeking by 0.008
+[browser] start-up delay: 203987
+Playback started.
+[browser] frontend summary: {log_id: 20260511_074001_77c2435c, start_up_delay: 203987, avg_buffer_level: 21.77577816666666, decoded_frames: 1737, dropped_frames: 0}
+Playback ended.
+===== Finished: sport, libvpx-vp9, 30 =====
+
+===== Start: sport, libvpx-vp9, 60 =====
+Backend accepted, waiting for playback...
+ERROR in sport, libvpx-vp9, 60
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: street1, libx264, 24 =====
+Backend accepted, waiting for playback...
+[browser] [16972921][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 130449.89999997616
+Playback started.
+[browser] frontend summary: {log_id: 20260511_075725_d28aa502, start_up_delay: 130449.89999997616, avg_buffer_level: 19.837494736842103, decoded_frames: 1819, dropped_frames: 40}
+Playback ended.
+===== Finished: street1, libx264, 24 =====
+
+===== Start: street1, libx264, 30 =====
+Backend accepted, waiting for playback...
+[browser] [17194197][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 141885.69999998808
+Playback started.
+[browser] frontend summary: {log_id: 20260511_080055_3cc9ecc0, start_up_delay: 141885.69999998808, avg_buffer_level: 20.065376210526313, decoded_frames: 2271, dropped_frames: 31}
+Playback ended.
+===== Finished: street1, libx264, 30 =====
+
+===== Start: street1, libx264, 60 =====
+Backend accepted, waiting for playback...
+[browser] [17379159][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [17379360][StreamProcessor][video] Adjusting playback time 0.008 because of gap in the manifest. Seeking by 0.008
+[browser] start-up delay: 106002.19999998808
+Playback started.
+[browser] frontend summary: {log_id: 20260511_074745_cf1d815a, start_up_delay: 106002.19999998808, avg_buffer_level: 22.05059147222222, decoded_frames: 2172, dropped_frames: 15}
+Playback ended.
+===== Finished: street1, libx264, 60 =====
+
+===== Start: street1, libx265, 24 =====
+Backend accepted, waiting for playback...
+[browser] [17473508][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 18364.19999998808
+Playback started.
+[browser] frontend summary: {log_id: 20260511_080436_025b521a, start_up_delay: 18364.19999998808, avg_buffer_level: 21.575638684210524, decoded_frames: 4548, dropped_frames: 683}
+Playback ended.
+===== Finished: street1, libx265, 24 =====
+
+===== Start: street1, libx265, 30 =====
+Backend accepted, waiting for playback...
+[browser] [17830579][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 278214.1999999881
+Playback started.
+[browser] frontend summary: {log_id: 20260511_080737_4b4e00b8, start_up_delay: 278214.1999999881, avg_buffer_level: 24.764875763157903, decoded_frames: 1821, dropped_frames: 41}
+Playback ended.
+===== Finished: street1, libx265, 30 =====
+
+===== Start: street1, libx265, 60 =====
+Backend accepted, waiting for playback...
+[browser] [17967771][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 57887.39999997616
+Playback started.
+[browser] frontend summary: {log_id: 20260511_080915_b4b2cf33, start_up_delay: 57887.39999997616, avg_buffer_level: 24.321257605263153, decoded_frames: 2275, dropped_frames: 61}
+Playback ended.
+===== Finished: street1, libx265, 60 =====
+
+===== Start: street1, libvpx-vp9, 24 =====
+Backend accepted, waiting for playback...
+ERROR in street1, libvpx-vp9, 24
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: street1, libvpx-vp9, 30 =====
+Backend accepted, waiting for playback...
+ERROR in street1, libvpx-vp9, 30
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: street1, libvpx-vp9, 60 =====
+Backend accepted, waiting for playback...
+[browser] [18749517][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [18749625][StreamProcessor][video] Adjusting playback time 0.008 because of gap in the manifest. Seeking by 0.008
+[browser] start-up delay: 102361
+Playback started.
+[browser] frontend summary: {log_id: 20260511_075225_e73648f3, start_up_delay: 102361, avg_buffer_level: 22.25736141666668, decoded_frames: 4338, dropped_frames: 654}
+Playback ended.
+===== Finished: street1, libvpx-vp9, 60 =====
+
+===== Start: street2, libx264, 24 =====
+Backend accepted, waiting for playback...
+[browser] [19004859][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [19005051][StreamProcessor][video] Adjusting playback time 0.008 because of gap in the manifest. Seeking by 0.008
+[browser] start-up delay: 179756.39999997616
+Playback started.
+[browser] frontend summary: {log_id: 20260511_081729_3fc2ae4a, start_up_delay: 179756.39999997616, avg_buffer_level: 21.640888210526324, decoded_frames: 1819, dropped_frames: 26}
+Playback ended.
+===== Finished: street2, libx264, 24 =====
+
+===== Start: street2, libx264, 30 =====
+Backend accepted, waiting for playback...
+[browser] [19323367][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 241685.10000002384
+Playback started.
+[browser] frontend summary: {log_id: 20260511_083028_1850a8bc, start_up_delay: 241685.10000002384, avg_buffer_level: 18.199732057142857, decoded_frames: 1641, dropped_frames: 48}
+Playback ended.
+===== Finished: street2, libx264, 30 =====
+
+===== Start: street2, libx264, 60 =====
+Backend accepted, waiting for playback...
+ERROR in street2, libx264, 60
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: street2, libx265, 24 =====
+Backend accepted, waiting for playback...
+[browser] [19719214][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 23795.69999998808
+Playback started.
+[browser] frontend summary: {log_id: 20260511_083446_02b8bcb7, start_up_delay: 23795.69999998808, avg_buffer_level: 17.164364942857148, decoded_frames: 2053, dropped_frames: 84}
+Playback ended.
+===== Finished: street2, libx265, 24 =====
+
+===== Start: street2, libx265, 30 =====
+Backend accepted, waiting for playback...
+ERROR in street2, libx265, 30
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: street2, libx265, 60 =====
+Backend accepted, waiting for playback...
+[browser] [20118020][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [20128033][HTTPLoader] Request timeout: non-computable download size
+[browser] [20128033][HTTPLoader] Request timeout: non-computable download size
+[browser] [20138539][HTTPLoader] Request timeout: non-computable download size
+[browser] [20138540][HTTPLoader] Request timeout: non-computable download size
+[browser] [20148700][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] start-up delay: 56718.5
+Playback started.
+[browser] frontend summary: {log_id: 20260511_084000_93373dee, start_up_delay: 56718.5, avg_buffer_level: 18.776569382352942, decoded_frames: 4103, dropped_frames: 638}
+Playback ended.
+===== Finished: street2, libx265, 60 =====
+
+===== Start: street2, libvpx-vp9, 24 =====
+Backend accepted, waiting for playback...
+ERROR in street2, libvpx-vp9, 24
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: street2, libvpx-vp9, 30 =====
+Backend accepted, waiting for playback...
+ERROR in street2, libvpx-vp9, 30
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: street2, libvpx-vp9, 60 =====
+Backend accepted, waiting for playback...
+ERROR in street2, libvpx-vp9, 60
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: YachtRide_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 24 =====
+Backend accepted, waiting for playback...
+[browser] [21311060][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [21321085][HTTPLoader] Request timeout: non-computable download size
+[browser] [21321086][HTTPLoader] Request timeout: non-computable download size
+[browser] [21331596][HTTPLoader] Request timeout: non-computable download size
+[browser] [21331597][HTTPLoader] Request timeout: non-computable download size
+[browser] [21342108][HTTPLoader] Request timeout: non-computable download size
+[browser] [21342109][HTTPLoader] Request timeout: non-computable download size
+[browser] [21352614][HTTPLoader] Request timeout: non-computable download size
+[browser] [21352615][HTTPLoader] Request timeout: non-computable download size
+[browser] [21404641][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [21414646][HTTPLoader] Request timeout: non-computable download size
+[browser] [21414647][HTTPLoader] Request timeout: non-computable download size
+ERROR in YachtRide_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 24
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: YachtRide_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 30 =====
+Backend accepted, waiting for playback...
+[browser] [21425148][HTTPLoader] Request timeout: non-computable download size
+[browser] [21425149][HTTPLoader] Request timeout: non-computable download size
+[browser] [21435656][HTTPLoader] Request timeout: non-computable download size
+[browser] [21435657][HTTPLoader] Request timeout: non-computable download size
+[browser] [21446165][HTTPLoader] Request timeout: non-computable download size
+[browser] [21446165][HTTPLoader] Request timeout: non-computable download size
+ERROR in YachtRide_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 30
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: YachtRide_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 60 =====
+Backend accepted, waiting for playback...
+ERROR in YachtRide_3840x2160_120fps_420_8bit_HEVC_RAW, libx264, 60
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: YachtRide_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 24 =====
+Backend accepted, waiting for playback...
+ERROR in YachtRide_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 24
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: YachtRide_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 30 =====
+Backend accepted, waiting for playback...
+ERROR in YachtRide_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 30
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: YachtRide_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 60 =====
+Backend accepted, waiting for playback...
+[browser] [22920826][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+ERROR in YachtRide_3840x2160_120fps_420_8bit_HEVC_RAW, libx265, 60
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: YachtRide_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 24 =====
+Backend accepted, waiting for playback...
+[browser] [22930837][HTTPLoader] Request timeout: non-computable download size
+[browser] [22930838][HTTPLoader] Request timeout: non-computable download size
+[browser] [22941340][HTTPLoader] Request timeout: non-computable download size
+[browser] [22941340][HTTPLoader] Request timeout: non-computable download size
+[browser] [22951853][HTTPLoader] Request timeout: non-computable download size
+[browser] [22951854][HTTPLoader] Request timeout: non-computable download size
+[browser] [22962356][HTTPLoader] Request timeout: non-computable download size
+[browser] [22962357][HTTPLoader] Request timeout: non-computable download size
+[browser] [23097038][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [23107043][HTTPLoader] Request timeout: non-computable download size
+[browser] [23107044][HTTPLoader] Request timeout: non-computable download size
+[browser] [23117547][HTTPLoader] Request timeout: non-computable download size
+[browser] [23117547][HTTPLoader] Request timeout: non-computable download size
+[browser] [23125765][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [23128049][HTTPLoader] Request timeout: non-computable download size
+[browser] [23135774][HTTPLoader] Request timeout: non-computable download size
+[browser] [23135775][HTTPLoader] Request timeout: non-computable download size
+[browser] [23138562][HTTPLoader] Request timeout: non-computable download size
+[browser] [23146276][HTTPLoader] Request timeout: non-computable download size
+[browser] [23146276][HTTPLoader] Request timeout: non-computable download size
+[browser] [23156778][HTTPLoader] Request timeout: non-computable download size
+[browser] [23156778][HTTPLoader] Request timeout: non-computable download size
+[browser] [23167281][HTTPLoader] Request timeout: non-computable download size
+[browser] [23167282][HTTPLoader] Request timeout: non-computable download size
+ERROR in YachtRide_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 24
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: YachtRide_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 30 =====
+Backend accepted, waiting for playback...
+[browser] [23352452][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [23362458][HTTPLoader] Request timeout: non-computable download size
+[browser] [23362458][HTTPLoader] Request timeout: non-computable download size
+[browser] [23372959][HTTPLoader] Request timeout: non-computable download size
+[browser] [23372960][HTTPLoader] Request timeout: non-computable download size
+[browser] [23383464][HTTPLoader] Request timeout: non-computable download size
+[browser] [23383464][HTTPLoader] Request timeout: non-computable download size
+[browser] [23393975][HTTPLoader] Request timeout: non-computable download size
+[browser] [23393975][HTTPLoader] Request timeout: non-computable download size
+[browser] [23486846][Protection] No supported version of EME detected on this user agent! - Attempts to play encrypted content will fail!
+[browser] [23496851][HTTPLoader] Request timeout: non-computable download size
+[browser] [23496852][HTTPLoader] Request timeout: non-computable download size
+[browser] [23507357][HTTPLoader] Request timeout: non-computable download size
+[browser] [23507358][HTTPLoader] Request timeout: non-computable download size
+[browser] [23517860][HTTPLoader] Request timeout: non-computable download size
+[browser] [23517860][HTTPLoader] Request timeout: non-computable download size
+ERROR in YachtRide_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 30
+page.waitForFunction: Timeout 300000ms exceeded.
+
+===== Start: YachtRide_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 60 =====
+Backend accepted, waiting for playback...
+[browser] [23528364][HTTPLoader] Request timeout: non-computable download size
+[browser] [23528364][HTTPLoader] Request timeout: non-computable download size
+ERROR in YachtRide_3840x2160_120fps_420_8bit_HEVC_RAW, libvpx-vp9, 60
+page.waitForFunction: Timeout 300000ms exceeded.

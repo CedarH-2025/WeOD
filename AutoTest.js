@@ -30,7 +30,7 @@ async function runOneTest(page, videoName, codec, fps) {
     await page.waitForFunction(() => {
         const status = document.querySelector("#statusText")?.innerText || "";
         return status.includes("Success") || status.includes("Failed");
-    }, { timeout: START_TIMEOUT });
+    }, null, { timeout: START_TIMEOUT });
 
     const statusText = await page.locator("#statusText").innerText();
 
@@ -46,7 +46,7 @@ async function runOneTest(page, videoName, codec, fps) {
     await page.waitForFunction(() => {
         const video = document.querySelector("#videoPlayer");
         return video && !video.paused && video.readyState >= 2;
-    }, { timeout: PLAY_TIMEOUT });
+    }, null, { timeout: PLAY_TIMEOUT });
 
     console.log("Playback started.");
 
@@ -54,7 +54,7 @@ async function runOneTest(page, videoName, codec, fps) {
     await page.waitForFunction(() => {
         const video = document.querySelector("#videoPlayer");
         return video && video.ended;
-    }, { timeout: END_TIMEOUT });
+    }, null, { timeout: END_TIMEOUT });
 
     console.log("Playback ended.");
 
