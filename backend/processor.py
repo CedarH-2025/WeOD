@@ -169,69 +169,97 @@ def encode(filename, codec, fps):
             "-i", input_file,
             "-c:v", "libx264",
             "-r", "24",
+            "-g", "48",
+            "-keyint_min", "48",
+            "-sc_threshold", "0",
             output_file
         ],
+
         ("libx264", "30"): [
             "ffmpeg", "-y",
             "-i", input_file,
             "-c:v", "libx264",
             "-r", "30",
+            "-g", "60",
+            "-keyint_min", "60",
+            "-sc_threshold", "0",
             output_file
         ],
+
         ("libx264", "60"): [
             "ffmpeg", "-y",
             "-i", input_file,
             "-c:v", "libx264",
             "-r", "60",
+            "-g", "120",
+            "-keyint_min", "120",
+            "-sc_threshold", "0",
             output_file
         ],
+
         ("libx265", "24"): [
             "ffmpeg", "-y",
             "-i", input_file,
             "-c:v", "libx265",
             "-r", "24",
+            "-g", "48",
+            "-keyint_min", "48",
+            "-x265-params", "keyint=48:min-keyint=48:scenecut=0",
             output_file
         ],
+
         ("libx265", "30"): [
             "ffmpeg", "-y",
             "-i", input_file,
             "-c:v", "libx265",
             "-r", "30",
+            "-g", "60",
+            "-keyint_min", "60",
+            "-x265-params", "keyint=60:min-keyint=60:scenecut=0",
             output_file
         ],
+
         ("libx265", "60"): [
             "ffmpeg", "-y",
             "-i", input_file,
             "-c:v", "libx265",
             "-r", "60",
+            "-g", "120",
+            "-keyint_min", "120",
+            "-x265-params", "keyint=120:min-keyint=120:scenecut=0",
             output_file
         ],
+
         ("libvpx-vp9", "24"): [
             "ffmpeg", "-y",
             "-i", input_file,
             "-c:v", "libvpx-vp9",
             "-b:v", "1M",
             "-r", "24",
+            "-g", "48",
             output_file
         ],
+
         ("libvpx-vp9", "30"): [
             "ffmpeg", "-y",
             "-i", input_file,
             "-c:v", "libvpx-vp9",
             "-b:v", "1M",
             "-r", "30",
+            "-g", "60",
             output_file
         ],
+
         ("libvpx-vp9", "60"): [
             "ffmpeg", "-y",
             "-i", input_file,
             "-c:v", "libvpx-vp9",
             "-b:v", "2M",
             "-r", "60",
+            "-g", "120",
             output_file
         ]
     }
-
     key = (codec, str(fps))
     if key not in case_commands:
         return None, is_cached, f"Unsupported codec/fps combination: codec={codec}, fps={fps}"
