@@ -1,11 +1,11 @@
 const fs = require("fs");
 const { chromium } = require("playwright");
 
-// URL
+// URL, vary on different machines
 const SERVER_URL = "http://10.151.220.244:5000";
 const LOST_FILE = "lost.txt";
 
-const WAIT_TIMEOUT = 1000 * 60 * 120; // 2小时
+const WAIT_TIMEOUT = 1000 * 60 * 120;
 const AFTER_END_WAIT = 3000;
 
 function readLostTests() {
@@ -54,7 +54,6 @@ async function waitUntilPlaybackEnded(page) {
 async function runOneTest(page, videoName, codec, fps) {
     console.log(`\n===== Start: ${videoName}, ${codec}, ${fps} =====`);
 
-    // 每轮重新进入页面，避免上一轮 dash.js / video 状态残留
     await page.goto(SERVER_URL, { waitUntil: "domcontentloaded", timeout: WAIT_TIMEOUT });
 
     await page.fill("#videoInput", videoName);
@@ -97,7 +96,6 @@ async function runOneTest(page, videoName, codec, fps) {
 
     const page = await browser.newPage();
 
-    // 防止 Playwright 默认 30 秒超时背刺
     page.setDefaultTimeout(WAIT_TIMEOUT);
     page.setDefaultNavigationTimeout(WAIT_TIMEOUT);
 
